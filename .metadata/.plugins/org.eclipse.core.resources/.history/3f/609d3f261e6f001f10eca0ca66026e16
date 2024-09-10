@@ -1,0 +1,7 @@
+package lab02.pc.models;
+
+public class userModel {
+	private int id;
+	private int username;
+	private int password;
+}

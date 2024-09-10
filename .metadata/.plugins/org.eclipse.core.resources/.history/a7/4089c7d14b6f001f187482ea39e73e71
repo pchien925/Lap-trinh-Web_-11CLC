@@ -1,0 +1,5 @@
+package lab02.pc.dao.Impl;
+
+public class userDaoImpl {
+
+}

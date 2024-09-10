@@ -1,0 +1,10 @@
+package lab02.pc.dao;
+
+import lab02.pc.models.userModel;
+
+public interface IUserDao {
+	void insert(userModel user);
+	
+	
+}
+	

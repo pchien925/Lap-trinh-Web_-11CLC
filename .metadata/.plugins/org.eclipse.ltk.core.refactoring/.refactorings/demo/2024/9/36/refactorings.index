@@ -1,0 +1,5 @@
+1725601016436	Rename package 'demo.controller'
+1725601170489	Encapsulate field 'id, ...'
+1725601177307	Encapsulate field 'username, ...'
+1725601184654	Encapsulate field 'password, ...'
+1725601190634	Encapsulate field 'email, ...'

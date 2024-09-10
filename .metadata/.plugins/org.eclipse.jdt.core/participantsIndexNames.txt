@@ -1,0 +1,5 @@
+INDEX VERSION 1.134
+C:\Users\pcchi\nam3-1\javaWeb\SpringWorkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1061229131.index
+\lab02\src\main\java
+C:\Users\pcchi\nam3-1\javaWeb\SpringWorkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3698793509.index
+\lab02\src\main\java

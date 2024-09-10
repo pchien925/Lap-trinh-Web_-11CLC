@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login Form</title>
+<link rel="stylesheet" type="text/css"
+	href="/webjars/bootstrap/css/bootstrap.min.css" />
+<script type="text/javascript"
+	src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<h2>Login Form</h2>
+	<div class="mb-3">
+		<label for="exampleFormControlInput1" class="form-label">Email
+			address</label> <input type="email" class="form-control"
+			id="exampleFormControlInput1" placeholder="name@example.com">
+	</div>
+	<div class="mb-3">
+		<label for="exampleFormControlTextarea1" class="form-label">Example
+			textarea</label>
+		<textarea class="form-control" id="exampleFormControlTextarea1"
+			rows="3"></textarea>
+	</div>
+</body>
+</html>

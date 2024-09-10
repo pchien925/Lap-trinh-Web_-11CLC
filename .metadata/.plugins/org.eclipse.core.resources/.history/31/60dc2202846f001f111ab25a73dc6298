@@ -1,0 +1,69 @@
+package lab02.pc.services.Impl;
+
+
+import lab02.pc.dao.IUserDao;
+import lab02.pc.dao.Impl.UserDaoImpl;
+import lab02.pc.models.User;
+import lab02.pc.services.IUserService;
+
+public class UserServiceImpl implements IUserService {
+
+	IUserDao userDAO = new UserDaoImpl();
+
+	@Override
+	public void insert(User user) {
+	}
+
+	@Override
+	public void update(User user) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public User get(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User get(String username) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User login(String username, String password) {
+		return null;
+	}
+
+	@Override
+	public boolean register(String email, String password, String username, String fullname, String phone) {
+		return false;
+	}
+
+	@Override
+	public boolean checkExistEmail(String email) {
+		return userDAO.checkExistEmail(email);
+	}
+
+	@Override
+	public boolean checkExistUsername(String username) {
+		return userDAO.checkExistUsername(username);
+	}
+
+	@Override
+	public boolean checkExistPhone(String phone) {
+		return userDAO.checkExistPhone(phone);
+	}
+
+//	public static void main(String[] args) {
+//		try {
+//			UserModel user = new UserServiceImpl().login("Chien", "01");
+//			System.out.println("xin chao" + user.getFullname());
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//			// TODO: handle exception
+//		}
+//	}
+}

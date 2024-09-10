@@ -1,0 +1,12 @@
+package lab02.pc.dao;
+
+import lab02.pc.models.UserModel;
+
+public interface IUserDao {
+	void insert(UserModel user);
+	void update(UserModel user);
+	boolean checkExistEmail(String email);
+	boolean checkExistUsername(String usernames);
+	boolean checkExistPhone(String phone);
+}
+	

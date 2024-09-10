@@ -1,0 +1,63 @@
+package lab02.pc.services.Impl;
+
+import lab02.pc.models.UserModel;
+import lab02.pc.services.IUserService;
+import lab02.pc.utils.DBConnection;
+
+public class UserServiceImpl extends DBConnection implements IUserService {
+
+	@Override
+	public void insert(UserModel user) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void update(UserModel user) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public UserModel get(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public UserModel get(String username) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public UserModel login(String username, String password) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean register(String email, String password, String username, String fullname, String phone) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean checkExistEmail(String email) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean checkExistUsername(String usernames) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean checkExistPhone(String phone) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

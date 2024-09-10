@@ -1,0 +1,39 @@
+package lab02.pc.dao.Impl;
+
+import lab02.pc.connection.DBConnection;
+import lab02.pc.dao.IUserDao;
+import lab02.pc.models.UserModel;
+
+public class UserDaoImpl extends DBConnection implements IUserDao{
+
+	@Override
+	public void insert(UserModel user) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(UserModel user) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean checkExistEmail(String email) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean checkExistUsername(String usernames) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean checkExistPhone(String phone) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+}
